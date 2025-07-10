@@ -1,13 +1,4 @@
 h1{
-    color: blue;
-    background-color: gray;
-        }
-
-p{
-    color: red;
-    background-color: cornsilk;
-} 
-button{
-    color: green;
-    background-color: yellow;
-} 
+    text-align: center;
+    border: 10px solid black;
+}
