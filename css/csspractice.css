@@ -1,0 +1,53 @@
+/*i
+#mainTopic{
+    color: blue;
+}
+
+
+/*universal selector*/
+*{
+    text-align: center;
+}
+
+
+/*multiple element selector*/
+h1,h3,h5{
+    font-family: Georgia;
+}
+
+
+/*class selector*/
+
+.paragraph{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/*decendet selecter*/
+
+div>button{
+    background-color: purple;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*hover psudo class*/
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+
+/*nth-of-type psudo class*/
+p:nth-last-of-type(odd){
+    background-color: yellow;
+}
+
+input[type="checkbox" ]:checked+label{
+   color: green;
+}
+h1::first-letter{
+    color: red;
+}
