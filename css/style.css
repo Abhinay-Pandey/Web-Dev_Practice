@@ -24,3 +24,77 @@ p a{
     color: purple; 
     background-color: yellow;
 }
+/* sibling selector*/
+p+h3{
+    text-decoration: underline;
+}
+/* this also an sibling combinator */
+.upvote+button{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+div>input{
+
+    border: 1px solid #ccc;
+   
+}
+/*attribute selector*/
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/* pseudo class selector */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    color: #b92b27;
+    text-decoration: overline;
+}
+button:active{
+    background-color: pink;
+    color: white;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+/*nth-child selector */
+.names li:nth-child(2n+1){
+    background-color: skyblue;
+}
+/* psudo element selector */
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: purple;
+    font-weight: bold;
+}
+::selection{
+    background-color: lime;
+    color: black;
+}
+/*cascading algorithm */
+/* The last rule will be applied */
+/*same for multiple css files*/
+h3{
+    background-color: yellow;
+}
+h3{
+    background-color: blue;
+}
