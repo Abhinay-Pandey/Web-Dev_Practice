@@ -1,0 +1,24 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
