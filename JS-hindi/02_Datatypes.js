@@ -16,3 +16,6 @@ let age=18//number datatype
 //object
 
 console.log(typeof"hitesh")
+//***********Oprations************************
+
+
